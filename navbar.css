@@ -1,0 +1,12 @@
+
+.navbar {
+    padding: 1rem;
+  }
+  
+  .navbar-brand {
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  .navbar-nav .nav-link {
+    margin-right: 10px;
+  }
