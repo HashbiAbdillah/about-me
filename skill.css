@@ -1,0 +1,13 @@
+.custom-section1 {
+  background-color: #FFBC80; 
+  margin-top: 5px;
+}
+
+.custom-section1 h1 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.custom-section1 p {
+  font-family: 'Poppins', sans-serif;
+  color: #121212;
+}

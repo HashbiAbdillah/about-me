@@ -1,20 +1,27 @@
 
 .custom-bg {
-    height: 100vh;
-    background-size: cover;
-    background-position: center;
-    
-    background-color: #ae3e3e;
-    margin-top: 20px;
-  }
-  
+  background-size: cover;
+  background-position: center;
+  background-color: #FC4F4F;
+  transition: background 0.5s ease-in-out;
+  margin-top: 10px;
+  padding: 20px;
+}
+
+.custom-content {
+  background-color: rgba(255, 255, 255, 0.2);
+  padding: 20px;
+  border-radius: 10px;
+  text-align: justify;
+  margin-top: 20px; /* Menambahkan margin-top */
+}
+
+@media (max-width: 768px) {
+  /* Menyesuaikan tata letak untuk layar yang lebih kecil */
   .custom-content {
-    background-color: rgba(255, 255, 255, 0.2);
-    padding: 20px;
-    border-radius: 10px;
-    margin-top: 20px;
+    margin-top: 0; /* Menghapus margin-top pada layar kecil */
   }
-  
+}
   .custom-content h1 {
     font-family: 'Montserrat', sans-serif;
     color: #ffffff;
@@ -36,6 +43,15 @@
     transition: width 1s ease-in-out;
   }
 
+  .custom-bg2 {
+    background-size: cover;
+    background-position: center;
+    background-color: #FF9F45;
+    transition: background 0.5s ease-in-out;
+    margin-top: auto;
+    padding: 20px;
+    margin-top: 5px;
+  }
   .custom-content2 {
     background-color: rgba(255, 255, 255, 0.2);
     padding: 20px;
