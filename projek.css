@@ -1,0 +1,24 @@
+.hehe{
+    background-image: url('/assets/bg.jpg');
+    backdrop-filter: blur(10px);
+    background-position: center;
+    
+}
+.custom-section h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300; 
+    color: #121212;
+  }
+  
+.custom-section p {
+    font-family: 'Poppins', sans-serif;
+    color: #121212;
+}
+  
+.container{
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: justify;
+    margin-top: 20px;
+}

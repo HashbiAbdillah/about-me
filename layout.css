@@ -13,13 +13,12 @@
   padding: 20px;
   border-radius: 10px;
   text-align: justify;
-  margin-top: 20px; /* Menambahkan margin-top */
+  margin-top: 20px;
 }
 
 @media (max-width: 768px) {
-  /* Menyesuaikan tata letak untuk layar yang lebih kecil */
   .custom-content {
-    margin-top: 0; /* Menghapus margin-top pada layar kecil */
+    margin-top: 0;
   }
 }
   .custom-content h1 {
