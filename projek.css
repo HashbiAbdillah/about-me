@@ -1,5 +1,5 @@
 .hehe{
-    background-image: url('/assets/bg.jpg');
+    background-color: #EBEF95;
     backdrop-filter: blur(10px);
     background-position: center;
     
@@ -16,7 +16,7 @@
 }
   
 .container{
-    background-color: rgba(255, 255, 255, 0.9);
+    background-color: rgba(255, 255, 255, 0.5);
     padding: 20px;
     border-radius: 10px;
     text-align: justify;
